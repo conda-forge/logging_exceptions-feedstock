@@ -1,6 +1,6 @@
 {% set name = "logging_exceptions" %}
-{% set version = "0.1.6" %}
-{% set sha256 = "1d05a68f96c8b8e5a41837b83acd329e46800895ea13b0cc7dfb291ce67b0b84" %}
+{% set version = "0.1.7" %}
+{% set sha256 = "6453acb0d4e435866ee0869a77a5801e4fd16c0e7a803a3c74c53fb15b981c68" %}
 
 package:
   name: {{ name|lower }}
