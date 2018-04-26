@@ -19,10 +19,10 @@ All platforms:
 
 Current release info
 ====================
-[![Conda Recipe](https://img.shields.io/badge/recipe-logging_exceptions-green.svg)](https://anaconda.org/conda-forge/logging_exceptions)
-[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/logging_exceptions.svg)](https://anaconda.org/conda-forge/logging_exceptions)
-[![Conda Version](https://img.shields.io/conda/vn/conda-forge/logging_exceptions.svg)](https://anaconda.org/conda-forge/logging_exceptions)
-[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/logging_exceptions.svg)](https://anaconda.org/conda-forge/logging_exceptions)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-logging_exceptions-green.svg)](https://anaconda.org/conda-forge/logging_exceptions) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/logging_exceptions.svg)](https://anaconda.org/conda-forge/logging_exceptions) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/logging_exceptions.svg)](https://anaconda.org/conda-forge/logging_exceptions) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/logging_exceptions.svg)](https://anaconda.org/conda-forge/logging_exceptions) |
 
 Installing logging_exceptions
 =============================
