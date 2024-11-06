@@ -1,6 +1,6 @@
 {% set name = "logging_exceptions" %}
-{% set version = "0.1.8" %}
-{% set sha256 = "0901b54a757af4288d39b12e9f8a8abe094b86cfb739c0428a907bdd17b3763e" %}
+{% set version = "0.1.9" %}
+{% set sha256 = "e2d94aa02372389229a2eee2d5b985201b72cb1e860bf8cbee3209cbbc125819" %}
 
 package:
   name: {{ name|lower }}
@@ -14,10 +14,10 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - python
     - pip
   run:
@@ -30,6 +30,7 @@ test:
 about:
   home: https://github.com/Bernhard10/logging_exceptions
   license: MIT
+  license_file: LICENSE
   license_family: MIT
   summary: 'Self-logging exceptions: Attach log messages to exceptions and output them conditionally.'
   dev_url: https://github.com/Bernhard10/logging_exceptions
